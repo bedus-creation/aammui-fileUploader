@@ -1,20 +1,3 @@
-# aammui-fileUploader
-
-This is file uploader plugin  written in jquery.
-
-You have to Implement the server type code
-
-
-## Requirement 
-
-* Bootstrap 4
-* Jquery 
-
-## Example
-
-```
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -37,17 +20,11 @@ You have to Implement the server type code
     <script type="text/javascript" src="src/js/fileupload-1.1.js"></script>
 	<script>
 		$('#asduhfudg').aammui({
-			baseUrl:'/',
+			baseUrl:'http://sajiload.com',
 			input:"cover",
 			serverUploadUrl:'/media/upload',
-			serverAllFileUrl:'/getfiles'
+			serverAllFileUrl:'./filelist.json'
 		});
 	</script>
 </body>
 </html>
-
-
-
-```
-
-### View Online Demo [Here](aammui-fileUploader.github.io)
