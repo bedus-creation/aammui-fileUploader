@@ -279,7 +279,7 @@
 		 		if (file.status == "uploading") {
 		 			raw = '<div class="col-md-3 astd mt-4 mb-4" id="' + file.id + '">';
 		 			raw += '<div class="temp-img" id="myProgress" style="background:url(' + file.ImgSrc + ') no-repeat;">';
-		 			raw += '<div id="' + file.id + '-i" class="local"><i class="fa fa-spinner fa-spin"></i></div>';
+		 			raw += '<div id="' + file.id + '-i" class="local"><i class="fas fa-spinner fa-spin"></i></div>';
 		 			raw += '</div>';
 		 			raw += "</div>";
 		 		} else if (file.status == "success") {
