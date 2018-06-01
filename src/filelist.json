@@ -1,34 +1,6 @@
 {
-    data: [
-    {
-    path: "users/uploads/600/1526100927.jpg"
-    },
-    {
-    path: "users/uploads/600/1526039169.jpg"
-    },
-    {
-    path: "users/uploads/600/1525934894.png"
-    },
-    {
-    path: "users/uploads/600/1525603886.jpg"
-    },
-    {
-    path: "users/uploads/600/1525337232.png"
-    },
-    {
-    path: "users/uploads/600/1525329442.jpg"
-    },
-    {
-    path: "users/uploads/600/1525329283.png"
-    },
-    {
-    path: "users/uploads/600/1525251488.jpeg"
-    },
-    {
-    path: "users/uploads/600/1525251480.jpg"
-    },
-    {
-    path: "users/uploads/600/1525248938.jpeg"
-    }
+    "data":[
+        {"path":"img/4th.jpg"},
+        {"path":"profile.jpg"}
     ]
 }
