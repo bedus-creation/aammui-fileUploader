@@ -14,11 +14,11 @@ You have to Implement the server type code
 
 ```
 
-
 <!DOCTYPE html>
 <html>
 <head>
     <title>Bootstrap 4 FileUploader</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <!-- Bootstap Css-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="src/css/fileupload-1.1.css">
@@ -37,14 +37,15 @@ You have to Implement the server type code
     <script type="text/javascript" src="src/js/fileupload-1.1.js"></script>
 	<script>
 		$('#asduhfudg').aammui({
-			baseUrl:'/',
+			baseUrl:'https://bedus-creation.github.io/fileupload/',
 			input:"cover",
 			serverUploadUrl:'/media/upload',
-			serverAllFileUrl:'/getfiles'
+			serverAllFileUrl:'src/filelist.json'
 		});
 	</script>
 </body>
 </html>
+
 
 
 
